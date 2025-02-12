@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    gap: 1rem;
+    transition: all 0.7s ease;
+}
+h1{
+    font-size: 40px;
+}
+button{
+    font-size: 20px;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    border: none;
+
+}
+.changebg{
+    background-color: black;
+    color: white;
+    transition: all 0.7s ease;
+}
